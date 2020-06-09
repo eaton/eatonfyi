@@ -22,14 +22,21 @@ h1 {
     line-height: 1;
 }
 
-p.lead {
-    font-size: 1.15rem;
-    font-weight: 400;
-}
-
 .subheading {
     font-family: $headings-font-family;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 1.5rem;
+}
+
+
+.project-logo {
+	max-width: 3.5rem;
+	max-height: 3.5rem;
+	border: 0.25rem solid fade-out($black, 0.8);
+}
+
+
+.talk-thumb {
+	border: 0.25rem solid fade-out($black, 0.8);
 }

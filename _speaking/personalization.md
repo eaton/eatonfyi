@@ -1,12 +1,14 @@
 ---
 title: When Personalization Goes Wrong
-summary: 
+summary: A bite-sized lightning talk that offers a simple framework for personalization planning, and warns about the ways projects can go wrong. More of our world runs on algorithmic content every day, and the stakes are higher than most teams are ready to face.
 event: Confab 2019
 event_url: https://www.confabevents.com/videos/2019-lightning-talks
 video_url: https://vimeo.com/336425802
 video_asset: https://player.vimeo.com/video/336425802?autoplay=1#t=338s
 slides_url: 
 slides_notes_url: 
+video_thumb: assets/speaking/personalization-thumb.jpg
+order: 2
 ---
 
 So, content personalization. Who here is familiar with it, show of hands? Basically it’s the idea of taking information that you know about the people who are coming to your website or your digital presence, and using that stuff you know about them to give them what they want, or to convince them to do things that you want them to do.

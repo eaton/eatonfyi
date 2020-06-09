@@ -1,0 +1,38 @@
+---
+title: Let’s get in touch!
+nav: Contact
+order: 10
+---
+<form method="POST" action="https://api.slapform.com/{{site.email}}">
+  <input type="hidden" name="slap_honey"/>
+  <input type="hidden" name="slap_form_id" value="eatonfyi-contact"/>
+
+  <div class="form-row">
+  <div class="form-group col-md-6">
+    <label for="formGroupExampleInput">Name</label>
+    <input type="text" class="form-control" id="formSender" name="sender" required>
+  </div>
+
+  <div class="form-group col-md-6">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="slap_replyto" name="slap_replyto" placeholder="name@example.com" required>
+  </div>
+  </div>
+
+  <div class="form-group">
+    <label for="slap_subject">What do you need?</label>
+    <select class="form-control" id="slap_subject" name="slap_subject" required>
+    <option>Commiseration</option>
+    <option>Speaking Engagement</option>
+    <option>Training Workshop</option>
+    <option>Consulting</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="formDetails">How can I help?</label>
+    <textarea class="form-control" id="formDetails" name="details" rows="10"></textarea>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>

@@ -1,12 +1,14 @@
 ---
 title: You Matter More Than The Cause
-summary: 
+summary: Inspired by my own experiences in nonprofits and open source projects, this talk examines the ways inspiring missions and good intentions can backfire, with some hard-won lessons about protecting ourselves and our teams.
 event: Design/Content 2016
 event_url: https://content.design/2016/09/you-matter-more-than-the-cause-jeff-eaton
-video_url: https://drupalize.me/videos/why-open-source-matters
+video_url: https://vimeo.com/180215647
 video_asset: https://player.vimeo.com/video/180215647
 slides_url: 
 slides_notes_url: 
+video_thumb: assets/speaking/you-matter-more-thumb.jpg
+order: 3
 ---
 
 What could be better than doing work that you believe *really matters?* Whether you’re pulling all-nighters for a new startup, burning the midnight oil on the project of your dreams, or helping launch a candidate into public office, it’s hard to beat the thrill of making a difference.

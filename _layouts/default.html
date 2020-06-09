@@ -8,10 +8,12 @@
     {%- include navbar.html -%}
 
     <div class="container-fluid p-0">
-      <div class="container page-content">
-          {{ content }}
-      </div>
+      {{ content }}
     </div>
-  </body>
 
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="{{ "/assets/javascript/scripts.js" | relative_url }}"></script>
+  </body>
 </html>

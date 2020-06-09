@@ -5,14 +5,20 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Eaton, FYI
+description: A spicy mix of content architecture, omnichannel CMS strategy, and digital team facilitation.
 author: Jeff Eaton
 email: "jeff@eaton.fyi"
-summary: A spicy mix of content architecture, omnichannel CMS strategy, and digital team facilitation.
 url: "https://eaton.fyi"
 analytics: "UA-168755040-1"
-twitter_username: eaton
-github_username:  eaton
-
+social:
+  name: Ben Balter
+  links:
+    - https://twitter.com/eaton
+    - https://www.linkedin.com/in/jeff.eaton
+    - https://github.com/eaton
+twitter:
+  username: eaton
+  card: summary
 
 # Build settings
 permalink: pretty
@@ -25,14 +31,7 @@ collections:
   - speaking
   - writing
   - projects
-    
-
-# A list of the pages to display in the navigation bar
-header_pages:
-  - about.md
-  - writing.md
-  - speaking.md
-  - contact.md
+  - sections
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

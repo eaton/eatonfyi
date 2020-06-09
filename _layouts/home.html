@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<section class="page-section" id="top">
+  <div class="page-section-content">
+  {%- if page.title -%}<h1 class="mb-0">{{ page.title | escape }}</h1>{%- endif -%}
+  {%- if page.tagline -%}<div class="subheading mb-5">{{ page.tagline | markdownify }}</div>{%- endif -%}
+  {%- if page.subhead -%}<p class="lead mb-5">{{ page.subhead }}</p>{%- endif -%}
+  {{ content }}
+  </div>
+</section>
+<hr class="m-0" />
+{% assign page_sections = site.sections | sort: 'order'  %}
+{%- for item in page_sections -%}
+  {%- if item.nav -%}
+  <!-- {{ item.nav | escape }} -->
+  <section class="page-section" id="{{ item.nav | escape | downcase }}">
+      <div class="page-section-content">
+          {%- if item.title -%}<h2 class="mb-0">{{ item.title | escape }}</h2>{%- endif -%}
+          {%- if item.subhead -%}<div class="subheading mb-5">{{ item.subhead | markdownify }}</div>{%- endif -%}
+          {{ item.content | markdownify }}
+      </div>
+  </section>
+  {%- if forloop.last == false -%}<hr class="m-0" />{%- endif -%}
+  {%- endif -%}
+{% endfor -%}

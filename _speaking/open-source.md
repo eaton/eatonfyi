@@ -1,13 +1,15 @@
 ---
 title: Why Open Source Matters
-summary: 
+summary: While the talk was focused on web development, it drew heavily on MIT economist Eric von Hippel's *Democratizing Innovation*, examining the tension between user-driven innovation and product-based operationalization. Those themes have shaped my approach to content, design, and software ever since.
 event: Do It With Drupal
 video_asset: 
 video_url: https://drupalize.me/videos/why-open-source-matters
 slides_url: 
+video_thumb: assets/speaking/open-source-thumb.jpg
+order: 4
 ---
 
-If you're reading this message, you use Open Source software. The last fifteen years has seen the meteoric rise of tools like Linux, Apache, Firefox, WordPress, Drupal and more; simplyusing Open Source is old hat. When it comes to building your company's web strategy around open source tools, though, the decisions can be fuzzier. The best-known arguments for Open Source are often ideological rather than pragmatic, and fail to account for the different needs of different projects and businesses.
+If you're reading this message, you use Open Source software. The last fifteen years has seen the meteoric rise of tools like Linux, Apache, Firefox, WordPress, Drupal and more; simply using Open Source is old hat. When it comes to building your company's web strategy around open source tools, though, the decisions can be fuzzier. The best-known arguments for Open Source are often ideological rather than pragmatic, and fail to account for the different needs of different projects and businesses.
 
 In this Do it with Drupal session, Jeff Eaton will explain the no-nonsense pros and cons of Open Source, covering the big wins as well as the tradeoffs and common pain points. Whether your business is testing the Open Source water, betting the farm on community-maintained software, or open-sourcing its own creations, you'll learn how to avoid common pitfalls and set yourself up for success.
 
