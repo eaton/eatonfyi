@@ -7,6 +7,6 @@ I write semi-regularly on [Medium](https://medium.com/@eaton), contribute to the
 
 {% assign pieces = site.writing | sort: 'order'  %}
 {%- for piece in pieces -%}
-<h5 class="mt-0 mb-1"><a href="{{ piece.url }}">{{ piece.title }}</a><small class="muted"> — {{ piece.published_by }}</small></h5>
+<h5 class="mt-0 mb-1"><a href="{{ piece.link }}">{{ piece.title }}</a><small class="muted"> — {{ piece.published_by }}</small></h5>
 {{ piece.content }}
 {% endfor -%}
