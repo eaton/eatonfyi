@@ -5,12 +5,11 @@ subhead: I help organizations understand their content and improve the tools the
 ---
 
 <ul class="list-unstyled">
-{% assign projects = site.projects | sort: 'order' %}
-{%- for project in projects -%}
+{%- for project in site.data.projects -%}
   <li class="media">
     <img class="mr-3 rounded-circle project-logo" src="{{ project.logo | relative_url }}" alt="{{ project.title }}" />
     <div class="media-body">
-	  {{ project.content | markdownify }}
+	  {{ project.description | markdownify }}
     </div>
   </li>
 {% endfor -%}
