@@ -33,8 +33,8 @@ collections:
     slug: "{{slug}}"
     folder: "_speaking"
     create: true
-    media_folder: '{{media_folder}/speaking'
-    public_folder: '{{public_folder}}/speaking'
+    media_folder: 'assets/speaking'
+    public_folder: '/assets/speaking'
     fields:
       - { label: "Title", name: "title", widget: "string", required: true, pattern: ['.{0,60}', "60 characters max"], hint: "60 character limit; used in meta tags." }
       - { label: "Summary", name: "summary", widget: "string", required: true }
@@ -49,7 +49,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "writing"
-    label: "Articlees"
+    label: "Articles"
     label_singular: "Article"
     format: "frontmatter"
     slug: "{{slug}}"
