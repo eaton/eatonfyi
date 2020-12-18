@@ -6,7 +6,7 @@ order: 2
 I'm a frequent speaker at web tech, content strategy, and design events including [The IA Conference](https://www.confabevents.com), [Confab](https://www.confabevents.com), [DrupalCon](https://events.drupal.org), [SXSW](https://www.sxsw.com), and [Design/Content](https://content.design). I'm a contributor to UIE's [All-You-Can-Learn library](https://aycl.uie.com/experts/jeff_eaton), the occasional host of a [content-centric podcast](http://insertcontenthere.com), and I've spent the last several years running content modeling workshops for individuals and teams.
 
 <ul class="list-unstyled">
-{% assign talks = site.speaking | sort: 'order'  %}
+{% assign talks = site.speaking.items | sort: 'order'  %}
 {%- for talk in talks -%}
   <li class="media">
     <a class="d-none d-sm-block" href="{{ talk.video_url }}"><img src="{{ talk.video_thumb }}" class="mr-3 talk-thumb"></a>

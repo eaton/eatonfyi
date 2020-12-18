@@ -5,11 +5,11 @@ subhead: I help organizations understand their content and improve the tools the
 ---
 
 <ul class="list-unstyled">
-{%- for project in site.data.projects -%}
+{%- for project in site.data.projects.items -%}
   <li class="media">
     <img class="mr-3 rounded-circle project-logo" src="{{ project.logo | relative_url }}" alt="{{ project.title }}" />
     <div class="media-body">
-	  {{ project.description | markdownify }}
+    {{ project.description | markdownify }}
     </div>
   </li>
 {% endfor -%}

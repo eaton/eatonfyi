@@ -1,0 +1,98 @@
+backend:
+  name: github
+  branch: master
+  repo: eaton/eatonfyi
+  site_domain: eatonfyi.netlify.app
+
+site_url: "/"
+
+media_folder: 'assets' # Media files will be stored in the repo under src/uploads
+public_folder: '/assets' # The src attribute for uploaded media will begin with /uploads
+
+# Please run "npx netlify-cms-proxy-server" for local backend
+local_backend: true
+
+collections:
+  - name: "sections"
+    label: "Sections"
+    label_singular: "Section"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    folder: "_sections"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string", required: true, pattern: ['.{0,60}', "60 characters max"], hint: "60 character limit; used in meta tags." }
+      - { label: "Navigation", name: "nav", widget: "string", required: true }
+      - { label: "Order", name: "order", widget: "number", value_type: "int" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "speaking"
+    label: "Sections"
+    label_singular: "Section"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    folder: "_sections"
+    create: true
+    media_folder: '{{media_folder}/speaking'
+    public_folder: '{{public_folder}}/speaking'
+    fields:
+      - { label: "Title", name: "title", widget: "string", required: true, pattern: ['.{0,60}', "60 characters max"], hint: "60 character limit; used in meta tags." }
+      - { label: "Summary", name: "summary", widget: "string", required: true }
+      - { label: "Event", name: "event", widget: "string", required: true }
+      - { label: "Event URL", name: "event_url", widget: "string", required: false }
+      - { label: "Slides", name: "slides_url", widget: "string", required: false }
+      - { label: "Slide Notes", name: "slides_notes_url", widget: "string", required: false }
+      - { label: "Video", name: "video_url", widget: "string", required: false }
+      - { label: "Video File", name: "video_asset", widget: "string", required: false }
+      - { label: "Thumbnail", name: "video_thumb", widget: "image", allow_multiple: false, required: true }
+      - { label: "Order", name: "order", widget: "number", value_type: "int" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "writing"
+    label: "Sections"
+    label_singular: "Section"
+    format: "frontmatter"
+    slug: "{{slug}}"
+    folder: "_sections"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string", required: true, pattern: ['.{0,60}', "60 characters max"], hint: "60 character limit; used in meta tags." }
+      - { label: "Publisher", name: "published_by", widget: "string", required: true }
+      - { label: "Link", name: "link", widget: "string", required: true }
+      - { label: "Order", name: "order", widget: "number", value_type: "int" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "data"
+    label: "Site Data"
+    delete: false
+    files:
+
+      - name: "projects"
+        label: "Projects"
+        label_singular: "Project"
+        description: "Things I'm doing around the web."
+        file: "_data/projects.yml"
+        fields:
+        - label: "Items"
+          name: "items"
+          widget: "list"
+          fields: 
+          - { label: "Name", name: "title", widget: "string", required: true }
+          - { label: "URL", name: "location", widget: "string", required: true }
+          - { label: "Logo", name: "logo", widget: "image", allow_multiple: false, required: true }
+          - { label: "Description", name: "summary", widget: "markdown", required: true }
+
+      - name: "appearances"
+        label: "Appearances"
+        label_singular: "Appearance"
+        description: "Places I've been."
+        file: "_data/appearances.yml"
+        fields:
+        - label: "Items"
+          name: "items"
+          widget: "list"
+          fields: 
+          - { label: "Title", name: "name", widget: "string", required: true }
+          - { label: "Year", name: "date", widget: "string", required: true }
+          - { label: "URL", name: "location", widget: "string", required: true }
+          - { label: "Description", name: "summary", widget: "string", required: false }

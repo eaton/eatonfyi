@@ -1,17 +1,15 @@
-- title: Autogram
-  url: http://autogram.is
-  logo: assets/autogram.png
-  order: 1
-  description: With [Karen McGrane](http://karenmcgrane.com) and [Ethan Marcotte](https://ethanmarcotte.com), I'm a partner at [Autogram](https://autogram.is). We're a digital strategy team focused on the tangly intersection of content architecture, design systems, and governance in large organizations. Anyone can make it work; we want to make it scale.
-  
-- title: Lullabot
-  url: http://lullabot.com
-  logo: assets/lullabot.png
-  order: 3
-  description: For fourteen years, I was a CMS architect and digital strategist at [Lullabot](https://lullabot.com), a strategy, design, and development shop specializing in enterprise-scale Drupal sites. Along with my work for clients large and small, I built the company's strategy practice from the ground up.
+items:
+  - title: Autogram
+    url: http://autogram.is
+    logo: assets/autogram.png
+    description: With [Karen McGrane](http://karenmcgrane.com) and [Ethan Marcotte](https://ethanmarcotte.com), I'm a partner at [Autogram](https://autogram.is). We're a digital strategy team focused on the tangly intersection of content architecture, design systems, and governance in large organizations. Anyone can make it work; we want to make it scale.
 
-- title: Nerdhaus
-  url: http://nerdhaus.net
-  logo: assets/nerdhaus.png
-  order: 2
-  description: My friend [James Walker](https://walkah.net) and I use [Nerdhaus](http://nerdhaus.net) as an excuse to build and poke at varied tech and content projects. Web-based tabletop gaming tools? Check. 3D printing utilities? Yes. The occasional podcast? Of course.
+  - title: Nerdhaus
+    url: http://nerdhaus.net
+    logo: assets/nerdhaus.png
+    description: My friend [James Walker](https://walkah.net) and I use [Nerdhaus](http://nerdhaus.net) as an excuse to build and poke at varied tech and content projects. Web-based tabletop gaming tools? Check. 3D printing utilities? Yes. The occasional podcast? Of course.
+
+  - title: Lullabot
+    url: http://lullabot.com
+    logo: assets/lullabot.png
+    description: For fourteen years, I was a CMS architect and digital strategist at [Lullabot](https://lullabot.com), a strategy, design, and development shop specializing in enterprise-scale Drupal sites. Along with my work for clients large and small, I built the company's strategy practice from the ground up.
