@@ -27,8 +27,8 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "speaking"
-    label: "Sections"
-    label_singular: "Section"
+    label: "Talks"
+    label_singular: "Talk"
     format: "frontmatter"
     slug: "{{slug}}"
     folder: "_speaking"
@@ -49,8 +49,8 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "writing"
-    label: "Sections"
-    label_singular: "Section"
+    label: "Articlees"
+    label_singular: "Article"
     format: "frontmatter"
     slug: "{{slug}}"
     folder: "_writing"
