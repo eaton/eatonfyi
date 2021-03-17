@@ -14,15 +14,10 @@ This batch of photos doesn't have quite enough grey, but I'll be taking some new
 * [High resolution download](https://live.staticflickr.com/4024/4596020523_cbb407f18d_k_d.jpg)
 * [Alternate versions](https://www.flickr.com/photos/jeffeaton/albums/72157624034865714)
 
-### Brief
-Jeff Eaton is a digital strategist with more than 25 years of experience in content architecture, editorial workflow, and digital publishing. He's worked with clients including Havard, IBM, NBC Universal, Apple, WWE, and more.
+### Neutral
+Jeff Eaton is a founding partner at [Autogram](https://autogram.is), and a digital strategist with more than 25 years of experience in content architecture, editorial workflow, and digital publishing. He's worked with clients including Havard, IBM, NBC Universal, WWE, and more.
 
-### Generic
-Jeff Eaton is Partner at Autogram, where he solves complex content management problems for media, education, and enterprise businesses. He co-authored the first edition of O’Reilly Media’s *Using Drupal* and hosts the *Insert Content Here* content strategy podcast. He’s a frequent writer and speaker at web and open source conferences, and served as an active contributor to the Drupal project for more than a decade.
+### Somewhat flavorful
+Jeff Eaton is a founding partner at [Autogram](https://autogram.is), and a digital strategist with more than 25 years of experience in content architecture, editorial workflow, and digital publishing. In 1983, he used a Fisher-Price Printing Press to publish a neighborhood newspaper — today, he helps with large and small companies design and refine their own publishing platforms.
 
-### Content Strategy focused
-In 1983, Jeff Eaton used a Fisher-Price Printing Press to publish a neighborhood newspaper. Today, he helps large and small companies design and deploy their own publishing platforms. As a Partner at Autogram, he works with clients including Sony/BMG Music, Fast Company and Inc. Magazine, World Wrestling Entertainment, Verizon Wireless, MSNBC, and more.
-
-He’s a frequent writer and speaker at web and open source conferences; the host of the *Insert Content Here* content strategy podcast; co-author of the first edition of O’Reilly Media’s *Using Drupal*; and a shameless fan of well-curated ephemera collections. In a previous life he worked as a freelance writer and a copy editor, jobs that he recalls fondly while building editorial tools for today’s content teams.
-
-
+He's worked with clients like Sony/BMG Music, IBM, World Wrestling Entertainment, The Federal Reserve Bank, Verizon Wireless and MSNBC to untangle their complex content. He looks forward to the day when all the PDFs have finally been converted.
